@@ -19,4 +19,6 @@ struct Pokemon : Identifiable, Codable {
 
 let pikachu = Pokemon(gorselIsmi: "pokemon-1", isim: "Pikachu", tur: "Mouse Pokemon")
 let clefairy = Pokemon(gorselIsmi: "pokemon-2", isim: "Clefairy", tur: "Fairy Pokemon")
-let pokemon = Pokemon(gorselIsmi: "pokemon-3", isim: "Pokemon", tur: "Pokemon")
+let unknownPokemon = Pokemon(gorselIsmi: "pokemon-3", isim: "Unknown Pokemon", tur: "Pokemon")
+
+let pokemonlar = [pikachu, clefairy, unknownPokemon]

@@ -12,6 +12,8 @@
 		D66A61FF2BA987E200256469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66A61FE2BA987E200256469 /* Assets.xcassets */; };
 		D66A62022BA987E200256469 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66A62012BA987E200256469 /* Preview Assets.xcassets */; };
 		D66A62092BA9899100256469 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A62082BA9899100256469 /* PokemonModel.swift */; };
+		D66A620B2BA98BA700256469 /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A620A2BA98BA600256469 /* OzelGorselView.swift */; };
+		D66A620D2BA98CB000256469 /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A620C2BA98CB000256469 /* PokemonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		D66A61FE2BA987E200256469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D66A62012BA987E200256469 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D66A62082BA9899100256469 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		D66A620A2BA98BA600256469 /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
+		D66A620C2BA98CB000256469 /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				D66A62082BA9899100256469 /* PokemonModel.swift */,
 				D66A61FE2BA987E200256469 /* Assets.xcassets */,
 				D66A62002BA987E200256469 /* Preview Content */,
+				D66A620A2BA98BA600256469 /* OzelGorselView.swift */,
+				D66A620C2BA98CB000256469 /* PokemonView.swift */,
 			);
 			path = PokemonWidgetKit;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66A620B2BA98BA700256469 /* OzelGorselView.swift in Sources */,
 				D66A61FD2BA987E000256469 /* ContentView.swift in Sources */,
 				D66A62092BA9899100256469 /* PokemonModel.swift in Sources */,
+				D66A620D2BA98CB000256469 /* PokemonView.swift in Sources */,
 				D66A61FB2BA987E000256469 /* PokemonWidgetKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

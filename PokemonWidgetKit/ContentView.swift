@@ -9,9 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("pokemon-3")
-            .resizable()
-            .frame(width: 100, height: 100)
+        VStack {
+            ForEach(pokemonlar) { pokemon in
+                PokemonView(pokemon: pokemon)
+            }
+        }
     }
 }
 
