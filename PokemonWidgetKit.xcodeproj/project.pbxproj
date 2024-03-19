@@ -11,6 +11,7 @@
 		D66A61FD2BA987E000256469 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A61FC2BA987E000256469 /* ContentView.swift */; };
 		D66A61FF2BA987E200256469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66A61FE2BA987E200256469 /* Assets.xcassets */; };
 		D66A62022BA987E200256469 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66A62012BA987E200256469 /* Preview Assets.xcassets */; };
+		D66A62092BA9899100256469 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A62082BA9899100256469 /* PokemonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D66A61FC2BA987E000256469 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D66A61FE2BA987E200256469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D66A62012BA987E200256469 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D66A62082BA9899100256469 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D66A61FA2BA987E000256469 /* PokemonWidgetKitApp.swift */,
 				D66A61FC2BA987E000256469 /* ContentView.swift */,
+				D66A62082BA9899100256469 /* PokemonModel.swift */,
 				D66A61FE2BA987E200256469 /* Assets.xcassets */,
 				D66A62002BA987E200256469 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D66A61FD2BA987E000256469 /* ContentView.swift in Sources */,
+				D66A62092BA9899100256469 /* PokemonModel.swift in Sources */,
 				D66A61FB2BA987E000256469 /* PokemonWidgetKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
